@@ -4,7 +4,7 @@
   "version": "6.0.0",
   "repository": {
     "type": "git",
-    "url": "http://github.com/sinonjs/eslint-config-sinon.git"
+    "url": "git+ssh://git@github.com/sinonjs/eslint-config-sinon.git"
   },
   "scripts": {
     "lint": "eslint . ",
