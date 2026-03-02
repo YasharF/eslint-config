@@ -10,6 +10,7 @@
     "lint": "eslint . ",
     "prettier:check": "prettier --check '**/*.{js, md}'",
     "prettier:write": "prettier --write '**/*.{js, md}'",
+    "prepare": "husky",
     "version": "changes --commits --footer",
     "postversion": "git push --follow-tags && npm publish --access public",
     "test": "npm run lint"
@@ -22,25 +23,23 @@
     ".browserslistrc"
   ],
   "main": "index.js",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
   "dependencies": {
-    "eslint": "^8",
-    "eslint-plugin-compat": "^4.2.0",
-    "eslint-plugin-jsdoc": "^48.2.3",
-    "eslint-plugin-mocha": "^10.4.3"
+    "eslint": "^8.57.1",
+    "eslint-plugin-compat": "^6.2.1",
+    "eslint-plugin-jsdoc": "^62.7.1",
+    "eslint-plugin-mocha": "^10.5.0"
   },
   "devDependencies": {
     "@studio/changes": "^3.0.0",
-    "husky": "^7",
-    "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5"
+    "husky": "^9.1.7",
+    "lint-staged": "^16.3.1",
+    "prettier": "^3.8.1"
   },
   "lint-staged": {
     "*.{js,md}": "prettier --check",
     "*.js": "eslint --quiet"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }

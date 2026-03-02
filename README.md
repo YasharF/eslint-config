@@ -12,6 +12,12 @@ need to install `@sinonjs/eslint-config`.
 $ npm install @sinonjs/eslint-config --save-dev
 ```
 
+The published package now expects a current Node LTS runtime:
+`^20.19.0 || ^22.13.0 || >=24`.
+
+Repository development also expects Node 20 or newer because the local
+pre-commit tooling is on `lint-staged` 16.x.
+
 ## Usage
 
 Add this to the `package.json`:
