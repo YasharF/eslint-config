@@ -1,5 +1,14 @@
 # Changes
 
+## 6.0.0
+
+- [`0621137`](https://github.com/sinonjs/eslint-config-sinon/commit/06211373913fd7da18355bf8ea1fd5a1f780b207)
+  build: modernize eslint config dependencies (Carl-Erik Kopseng)
+
+  > @sinonjs/eslint-config has been modernized with updated ESLint plugins and repo tooling, and npm audit is now clean with zero vulnerabilities.  The package now requires current Node LTS runtimes: ^20.19.0 || ^22.13.0 || >=24. Internally, the repo also moved to Husky 9 and lint-staged 16 for pre-commit hooks.
+
+_Released by [Carl-Erik Kopseng](https://github.com/fatso83) on 2026-03-02._
+
 ## 5.0.4
 
 - [`95eae45`](https://github.com/sinonjs/eslint-config-sinon/commit/95eae4506d4e9f42b00a14a258f676ceb050904e)
