@@ -1,5 +1,12 @@
 # Changes
 
+## 6.0.1
+
+- [`6846530`](https://github.com/sinonjs/eslint-config-sinon/commit/6846530138303f451999a9a5caaa1ab8a1c6d4b7)
+  Consistently use ES2023 for env and syntax (Carl-Erik Kopseng)
+
+_Released by [Carl-Erik Kopseng](https://github.com/fatso83) on 2026-04-10._
+
 ## 6.0.0
 
 - [`0621137`](https://github.com/sinonjs/eslint-config-sinon/commit/06211373913fd7da18355bf8ea1fd5a1f780b207)
