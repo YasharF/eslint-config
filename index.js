@@ -298,12 +298,12 @@ const jsDoc = {
 module.exports = {
   extends: ["plugin:compat/recommended", "plugin:jsdoc/recommended"],
   parserOptions: {
-    ecmaVersion: 2024,
+    ecmaVersion: 2023,
   },
   env: {
     browser: true,
     node: true,
-    es2017: true,
+    es2023: true,
   },
   plugins: ["compat", "jsdoc"],
   rules: Object.assign(
