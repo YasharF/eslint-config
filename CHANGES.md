@@ -1,5 +1,12 @@
 # Changes
 
+## 7.0.1
+
+- [`915ec0a`](https://github.com/sinonjs/eslint-config-sinon/commit/915ec0a75b353c6d5fbf3b5e4adf5b57b2538b2e)
+  Rename old mocha rules (Carl-Erik Kopseng)
+
+_Released by [Carl-Erik Kopseng](https://github.com/fatso83) on 2026-04-11._
+
 ## 7.0.0
 
 - [`88772ed`](https://github.com/sinonjs/eslint-config-sinon/commit/88772ed3d5d62924378def097b737580546bf267)
