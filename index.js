@@ -1,8 +1,7 @@
 "use strict";
 const compat = require("eslint-plugin-compat");
 const globals = require("globals");
-const jsdoc =
-  require("./node_modules/eslint-plugin-jsdoc/src/index-cjs.js").default;
+const jsdoc = require("eslint-plugin-jsdoc");
 const mocha =
   require("eslint-plugin-mocha/plugin.js").default ||
   require("eslint-plugin-mocha/plugin.js");
@@ -362,7 +361,7 @@ module.exports = [
       ...jsdoc.configs["flat/recommended-typescript-flavor"].rules,
       ...mocha.configs.recommended.rules,
       ...sharedRules,
-      "max-nested-callbacks": ["warn", 5],
+      "max-nested-callbacks": "off",
       "jsdoc/require-jsdoc": "off",
       "mocha/handle-done-callback": "error",
       "mocha/no-async-suite": "error",
