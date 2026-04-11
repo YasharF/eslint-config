@@ -147,7 +147,7 @@ const bestPractices = {
 
 // https://eslint.org/docs/rules/#strict-mode
 const strictMode = {
-  strict: ["error", "global"],
+  strict: "off",
 };
 
 // https://eslint.org/docs/rules/#variables
@@ -161,7 +161,10 @@ const variables = {
   "no-undef": "error",
   "no-undef-init": "error",
   "no-undefined": "off",
-  "no-unused-vars": ["error", { vars: "all", args: "after-used" }],
+  "no-unused-vars": [
+    "error",
+    { vars: "all", args: "after-used", caughtErrors: "none" },
+  ],
   "no-use-before-define": ["error", { functions: false }],
 };
 
@@ -343,7 +346,7 @@ module.exports = [
     },
   },
   {
-    files: ["**/*.test.*", "**/*-test.*"],
+    files: ["**/*.test.*", "**/*-test.*", "**/*-tests.*"],
     plugins: {
       compat,
       jsdoc,
@@ -363,6 +366,7 @@ module.exports = [
       ...sharedRules,
       "max-nested-callbacks": "off",
       "jsdoc/require-jsdoc": "off",
+      "mocha/consistent-spacing-between-blocks": "off",
       "mocha/handle-done-callback": "error",
       "mocha/no-async-suite": "error",
       "mocha/max-top-level-suites": "off",
