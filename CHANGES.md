@@ -1,5 +1,12 @@
 # Changes
 
+## 7.0.3
+
+- [`93fcf37`](https://github.com/sinonjs/eslint-config-sinon/commit/93fcf37b24277a1c1af1722a38cc5a5848c01c04)
+  slight modifications, pulling changes up from consumers (Carl-Erik Kopseng)
+
+_Released by [Carl-Erik Kopseng](https://github.com/fatso83) on 2026-04-11._
+
 ## 7.0.2
 
 - [`84ab8a3`](https://github.com/sinonjs/eslint-config-sinon/commit/84ab8a33d02700c9fb4ddce9a90ea9c062083ad3)
