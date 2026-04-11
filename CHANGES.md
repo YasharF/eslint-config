@@ -1,5 +1,12 @@
 # Changes
 
+## 7.0.2
+
+- [`84ab8a3`](https://github.com/sinonjs/eslint-config-sinon/commit/84ab8a33d02700c9fb4ddce9a90ea9c062083ad3)
+  nexted callbacks off (Carl-Erik Kopseng)
+
+_Released by [Carl-Erik Kopseng](https://github.com/fatso83) on 2026-04-11._
+
 ## 7.0.1
 
 - [`915ec0a`](https://github.com/sinonjs/eslint-config-sinon/commit/915ec0a75b353c6d5fbf3b5e4adf5b57b2538b2e)
